@@ -1,4 +1,11 @@
 Especificación Técnica: API REST - Sistema de Gestión de Biblioteca
+
+Este documento describe el diseño de los endpoints para el sistema de biblioteca, utilizando estándares de la industria para arquitecturas RESTful.
+
+1. Configuración GeneralBase URL: https://api.biblioteca-digital.com/v1Formato de datos: JSONAutenticación: Bearer Token (JWT)
+
+2. Endpoints de Recursos
+Libros (Books)
 Este documento describe el diseño de los endpoints para el sistema de biblioteca, utilizando estándares de la industria para arquitecturas RESTful.
 1. Configuración GeneralBase URL: https://api.biblioteca-digital.com/v1Formato de datos: JSONAutenticación: Bearer Token (JWT)
 2. Endpoints de Recursos
