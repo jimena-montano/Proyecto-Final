@@ -1,6 +1,7 @@
 
 GraphQL - Esquema
 
+
 """
 Representa un producto dentro del catálogo del sistema.
 Proveniente del microservicio de Inventario.
