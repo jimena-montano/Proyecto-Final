@@ -1,4 +1,6 @@
-GraphQL
+
+GraphQL - Esquema
+
 
 """
 Representa un producto dentro del catálogo del sistema.
