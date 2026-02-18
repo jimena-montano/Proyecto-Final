@@ -1,4 +1,5 @@
 1. Diagrama Conceptual de la Arquitectura
+
 El sistema se divide en tres capas principales: Cliente, Orquestación (Gateway) y Servicios de Dominio.
 
 Componentes del Sistema
@@ -13,6 +14,7 @@ Inventory Service: Gestiona el stock de productos y responde a las consultas de 
 Message Broker (RabbitMQ/Kafka): Permite la comunicación asíncrona. Por ejemplo, cuando se crea un pedido, se envía un evento para descontar el inventario.
 
 2. Decisiones Arquitectónicas (ADR)
+
 Para darle un nivel de Arquitecto Senior, incluye estas justificaciones en tu documentación:
 
 Persistencia Políglota: Cada microservicio tiene su propia base de datos (PostgreSQL para órdenes, MongoDB para catálogo) para asegurar el aislamiento.
